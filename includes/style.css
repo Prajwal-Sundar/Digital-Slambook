@@ -1,0 +1,45 @@
+body {
+	background-image: url('background.jpg');
+}
+
+.header {
+	background-color: rgb(255, 179, 237);
+	animation-name: animateText;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animateText {
+	0% {color: black}
+	25% {color: brown}
+	50% {color: green}
+	75% {color: blue}
+	100% {color: pink}
+}
+
+.hover
+{
+	cursor:pointer;
+}
+
+.hoverButton {
+	background-color:black;
+	color:white;
+}
+
+.hoverButton:hover
+{
+	background-color:grey;
+	color:black;
+}
+
+.noHoverUnderline:hover
+{
+	text-decoration:none;
+}
+
+footer {
+	background-color:black;
+	color:yellow;
+	height:75px;
+}
